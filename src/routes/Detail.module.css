@@ -1,0 +1,49 @@
+.container{
+    display: grid;
+}
+.backg{
+    display: flex;
+    width:100%;
+    height:40%;
+}
+.movies{
+    padding: 50px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+.im{
+position: relative;
+  top: -300px;
+  right: -20px;
+  max-width: 500px;
+  min-width: 300px;
+  width: 100%;
+    max-height: 600px;
+  margin-right: 30px;
+  margin-bottom: -300px;
+  box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
+    0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+}
+.contents{
+    padding: 0px 40px;
+    background-color: rgb(196, 208, 220);
+    border-radius: 15px;
+}
+.genre, ul{
+    margin-top:-15px;
+}
+
+.movie__year{
+    font-size: 17px;
+}
+
+.loader {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 300;
+  font-size:50px;
+}
