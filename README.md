@@ -1,6 +1,6 @@
-# Movie List Web app
+# Movie Lists Web app
 
-Movie List Web app using ReactJS. 
+Movie Lists Web app using ReactJS. 
 
 Used API from YTS.MX and retrieve 50 movies that have over than rating of 9. 
 
