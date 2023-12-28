@@ -17,9 +17,10 @@ function Detail (){
           }
         )
     },[])
+    console.log(movie)
     return (
       <div className={styles.container}>
-      <Header/>
+        <Header />
         {loading ? (
           <div>
             <img
@@ -31,8 +32,17 @@ function Detail (){
                 <img src={movie.large_cover_image} className={styles.im} />
               </div>
               <div className={styles.contents}>
-                <h1>{movie.title}</h1>
+                <h1>
+                  <a href={movie.url} className={styles.url}>
+                    {movie.title}
+                  </a>
+                </h1>
                 <h4 className={styles.movie__year}>{movie.year}</h4>
+                <h4>
+                  <a href={movie.url} className={styles.url}>
+                    View
+                  </a>
+                </h4>
                 <p>{movie.description_full}</p>
                 <h4>Genre:</h4>
                 <div className={styles.genre}>

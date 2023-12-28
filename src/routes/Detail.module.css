@@ -47,3 +47,8 @@ position: relative;
   font-weight: 300;
   font-size:50px;
 }
+
+.url{
+    text-decoration: underline;
+    color: inherit;
+}
